@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.trainings.ocp</groupId>
+	<artifactId>ocp-prep</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<developers>
+		<developer>
+			<id>SedaQ</id>
+			<name>Pavel Šeda</name>
+			<email>pavelseda@email.cz</email>
+			<timezone>UTC +1</timezone>
+		</developer>
+	</developers>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>${maven.compiler.source}</source>
+						<target>${maven.compiler.target}</target>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<modules>
+		<module>ocp-class-design</module>
+		<module>ocp-design-patterns</module>
+		<module>ocp-generics-collections</module>
+		<module>ocp-functional-programming</module>
+		<module>ocp-strings-dates-localization</module>
+		<module>ocp-exceptions-assertions</module>
+		<module>ocp-concurrency</module>
+		<module>ocp-io</module>
+		<module>ocp-nio2</module>
+		<module>ocp-jdbc</module>
+	</modules>
+</project>
