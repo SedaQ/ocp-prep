@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.trainings.ocp</groupId>
@@ -40,15 +39,16 @@
 	</build>
 
 	<modules>
+		<module>ocp-strings-localization</module>
+		<module>ocp-dates</module>
 		<module>ocp-class-design</module>
-		<module>ocp-design-patterns</module>
 		<module>ocp-generics-collections</module>
 		<module>ocp-functional-programming</module>
-		<module>ocp-strings-dates-localization</module>
 		<module>ocp-exceptions-assertions</module>
-		<module>ocp-concurrency</module>
 		<module>ocp-io</module>
 		<module>ocp-nio2</module>
+		<module>ocp-concurrency</module>
 		<module>ocp-jdbc</module>
+		<module>ocp-localization</module>
 	</modules>
 </project>
