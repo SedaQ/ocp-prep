@@ -1,0 +1,6 @@
+# Abstract classes
+1. Create abstract class Employee and his child class Manager (extending Employee)
+2. In Manager class implement method with signature doSomething()
+3. Think about 3 ways that use the doSomething() method in Employee class
+
+# 
