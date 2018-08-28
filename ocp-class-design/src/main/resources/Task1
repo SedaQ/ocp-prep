@@ -1,0 +1,25 @@
+# Abstract classes
+1. Create abstract class Employee and his child class Manager (extending Employee)
+2. In Manager class implement method with signature doSomething()
+3. Think about 3 ways that use the doSomething() method in Employee class
+
+# Enums
+1. Create enum Months with proper attributes and one abstract method sun().
+2. Override abstract method in enum items some println, e.g. (System.out.println("7:00 AM - 8:00 PM")
+
+# toString, equals, hashCode
+1. Create class Employee with member variables (id, email, nickname, salary)
+2. Implement toString method in that classes using concat, reflection, lombok (try all approaches)
+3. Implement equals, hashCode with standard implementation and with Objects utility methods (try both examples)
+
+# nested classes
+1. Create class PageResult with attributes (content, pagination) and create nested class Pagination with attributes (number, size, sorted, ...)
+2. Create main method and try to instantiate this nested class in case it is static class, local inner class, ...
+3. Create class AFoo with attribute id = 1, than create class BFoo with attribute id=2, than create class CFoo with attribute id=3 and with method printIds(){}.
+4. In method printIds access id from AFoo and id from BFoo.
+5. Create main method and instantiate AFoo, BFoo and CFoo classes and call printIds() method.
+
+# Overriding, overloading
+1. Implement super class Animal with child classes Dog and Cat.
+2. In super class implement method sound().
+3. In child classes override this method (try to add declaration for throwing exceptions (checked or unchecked) in super or child class method and also try to change access modifier and look what happens).
