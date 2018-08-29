@@ -6,6 +6,10 @@ import java.util.*;
  * A list is an ordered collection of elements that allows duplicate entries.
  * Elements in a list can be accessed by an int index.
  * 
+ * NOTE: Vector is synchronized ArrayList, but pay attention since newer
+ * versions of java there are better ways how to achieve synchronized
+ * collections, e.g. CopyOnWriteArrayList
+ * 
  * @author Pavel Seda
  *
  */
@@ -47,12 +51,13 @@ public class ListExample {
 	}
 
 	/**
-	 * What will be
+	 * What will be printed?
 	 */
 	public static void arraysAsListMethodExample() {
 		List<String> myList = Arrays.asList("Hello", "World", "!");
 		myList.set(0, "Hello ");
 		myList.remove(2);
+		System.out.println(myList);
 	}
 
 	/**

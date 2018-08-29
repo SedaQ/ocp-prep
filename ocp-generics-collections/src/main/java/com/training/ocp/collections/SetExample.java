@@ -31,6 +31,8 @@ public class SetExample {
 	/**
 	 * Tree set is using Red Black Tree algorithm for adding elements in sorted
 	 * order.
+	 * 
+	 * TreeSet does not allow null elements.
 	 */
 	public static void treeSetExample() {
 		Set<String> setOfStrings = new TreeSet<>();
@@ -48,12 +50,12 @@ public class SetExample {
 	 * interesting methods.
 	 * 
 	 * <pre>
-	 <code>
-		E lower(E e) Returns greatest element that is < e, or null if no such element
-		E floor(E e) Returns greatest element that is <= e, or null if no such element
-		E ceiling(E e) Returns smallest element that is >= e, or null if no such element
-		E higher(E e) Returns smallest element that is > e, or null if no such element	 
-	 </code>
+		 <code>
+			E lower(E e) Returns greatest element that is < e, or null if no such element
+			E floor(E e) Returns greatest element that is <= e, or null if no such element
+			E ceiling(E e) Returns smallest element that is >= e, or null if no such element
+			E higher(E e) Returns smallest element that is > e, or null if no such element	 
+		 </code>
 	 * </pre>
 	 * 
 	 */
