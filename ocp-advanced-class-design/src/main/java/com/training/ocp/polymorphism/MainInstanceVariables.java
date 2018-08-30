@@ -1,4 +1,4 @@
-package com.training.ocp.virtualmethods;
+package com.training.ocp.polymorphism;
 
 /**
  * 

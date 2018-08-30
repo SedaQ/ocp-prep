@@ -50,5 +50,6 @@
 		<module>ocp-concurrency</module>
 		<module>ocp-jdbc</module>
 		<module>ocp-localization</module>
+		<module>ocp-advanced-class-design</module>
 	</modules>
 </project>
