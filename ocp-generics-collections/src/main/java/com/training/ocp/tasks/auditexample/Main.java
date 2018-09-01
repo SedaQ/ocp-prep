@@ -18,6 +18,6 @@ public class Main {
 		dp.setNote("some note");
 
 		AuditService auditService = new AuditServiceImpl();
-		auditService.save(dp);
+		auditService.<DescriptionPojo>save(dp);
 	}
 }

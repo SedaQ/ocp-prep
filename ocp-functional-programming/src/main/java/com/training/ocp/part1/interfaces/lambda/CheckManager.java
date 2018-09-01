@@ -1,4 +1,4 @@
-package com.training.ocp.interfaces.lambda;
+package com.training.ocp.part1.interfaces.lambda;
 
 /**
  * 

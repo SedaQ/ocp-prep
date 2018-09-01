@@ -8,7 +8,7 @@ import java.util.List;
  * 
  * Binary search assumes that the input is sorted.
  * 
- * If element is not present than it returns index where it should * (-1).
+ * If element is not present than it returns index where it should be * (-1).
  * 
  * In case the array/collection is not sorted than the results are undefined.
  * 

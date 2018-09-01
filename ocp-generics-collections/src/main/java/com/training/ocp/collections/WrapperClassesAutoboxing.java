@@ -24,6 +24,7 @@ import java.util.List;
  * </ul>
  * 
  * @author Pavel Seda
+ * 
  *
  */
 public class WrapperClassesAutoboxing {

@@ -32,11 +32,13 @@ public class WhyNotUseObject {
 	 * 
 	 * @param list
 	 */
-	private static void printList(List<Object> list) {
-		list.forEach(System.out::println);
-	}
+//	private static void printList(List<Object> list) {
+//		list.forEach(System.out::println);
+//	}
 
-	// private static void printList(List<?> list) {}
+	 private static void printList(List<?> list) {
+		 list.forEach(System.out::println);
+	 }
 
 	// private static void printList(List<? extends Exception> list) {}
 }

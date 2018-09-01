@@ -14,6 +14,6 @@ public class LegacyAutoboxing {
 		List nums = new ArrayList();
 		nums.add(3);
 		// Legacy unboxing
-		// int result = nums.get(0); // DOES NOT COMPILE
+		// int result = /*(Integer)*/ nums.get(0); // DOES NOT COMPILE
 	}
 }

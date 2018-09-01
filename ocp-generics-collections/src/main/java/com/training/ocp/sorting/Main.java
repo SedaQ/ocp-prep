@@ -39,7 +39,7 @@ public class Main {
 		System.out.println(System.lineSeparator() + "Sorting with Comparator using lambda:");
 
 		List<Employee> employees = initializeData();
-		Collections.sort(employees, new EmployeeEmailComparator());
+		Collections.sort(employees, (e1, e2) -> e1.getName().compareTo(e2.getName()));
 		employees.forEach(System.out::println);
 	}
 

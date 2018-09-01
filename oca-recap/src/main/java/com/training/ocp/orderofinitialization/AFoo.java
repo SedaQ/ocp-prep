@@ -25,9 +25,13 @@ public class AFoo {
 
 class BFoo extends AFoo {
 
-	static {System.out.println("Static block initialization in class BFoo.");}
-	{ System.out.println("Instance block initialization in class BFoo.");}
-	
+	static {
+		System.out.println("Static block initialization in class BFoo.");
+	}
+	{
+		System.out.println("Instance block initialization in class BFoo.");
+	}
+
 	public BFoo() {
 		System.out.println("Class BFoo is called.");
 	}

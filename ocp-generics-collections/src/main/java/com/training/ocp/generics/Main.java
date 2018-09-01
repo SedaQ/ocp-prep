@@ -3,6 +3,11 @@ package com.training.ocp.generics;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author Pavel Seda
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
