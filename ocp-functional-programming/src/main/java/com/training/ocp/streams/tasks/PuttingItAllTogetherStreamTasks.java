@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  * @author Pavel Seda
  *
  */
-public class PuttingItAllTogether {
+public class PuttingItAllTogetherStreamTasks {
 
 	public static void main(String[] args) {
 		usingFlatMap();
