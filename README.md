@@ -24,3 +24,13 @@ pavelseda@email.cz | Šeda Pavel
 ## Running Project
 
 Clone this project to your personal workstation (it is multi-module maven project)
+
+## Reference materials
+
+authors | material 
+------------ | -------------
+Oracle | (https://docs.oracle.com/javase/8/docs/)
+Jeanne Boyarsky, Scott Selikoff | OCA / OCP Java SE 8 Programmer Certification Kit: Exam 1Z0-808 and Exam 1Z0-809
+SG Ganesh, Hari Kiran Kumar, Tushar Sharma | Oracle Certification Professional Java SE 8 Programmer Exam 1Z0-809: A Comprehensive OCPJP 8 Certification Guide
+
+
