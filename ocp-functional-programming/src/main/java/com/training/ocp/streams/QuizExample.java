@@ -50,6 +50,6 @@ public class QuizExample {
 		Stream<String> myStream = Stream.of(myList).flatMap(l -> l.stream());
 		List<String> onlyOnes = myStream.filter(str -> str.equals("one")).collect(Collectors.toList());
 //		List<String> onlyTwos = myStream.filter(str -> str.equals("two")).collect(Collectors.toList());
-
 	}
+
 }
