@@ -18,7 +18,7 @@ public class ZonedDateTimeExample {
 		init();
 		zonedDateTimeMethods();
 
-		// getAvailableTimeZones();
+		getAvailableTimeZones();
 	}
 
 	private static void init() {
