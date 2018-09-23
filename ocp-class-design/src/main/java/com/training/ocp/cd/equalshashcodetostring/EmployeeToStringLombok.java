@@ -10,11 +10,11 @@ import lombok.ToString;
  */
 @ToString(exclude = "salary")
 public class EmployeeToStringLombok {
+
 	private String name;
 	private int salary;
 
-	public EmployeeToStringLombok() {
-	}
+	public EmployeeToStringLombok() {}
 
 	public String getName() {
 		return name;

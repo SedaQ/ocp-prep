@@ -25,11 +25,10 @@ import java.util.Scanner;
 public class ConsoleExample {
 
 	public static void main(String[] args) {
+		newWay();
 		try {
 			oldWay();
-			newWay();
 		} catch (IOException io) {
-
 		}
 	}
 

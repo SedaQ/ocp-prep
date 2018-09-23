@@ -27,9 +27,9 @@ public class Employee {
 	}
 
 	/**
-	 * Example usage of <code>instanceof</code> operator. Too call particular method
-	 * we need to downcast the object and thus we need to check if we could do it
-	 * safely with instanceof operator.
+	 * Example usage of <code>instanceof</code> operator. Too call particular method we need to
+	 * downcast the object and thus we need to check if we could do it safely with instanceof
+	 * operator.
 	 * 
 	 * @param employee
 	 */
@@ -45,15 +45,14 @@ public class Employee {
 }
 
 class Manager extends Employee {
-	void increaseEmployeeSalary() {
-	}
+
+	void increaseEmployeeSalary() {}
 }
 
 class Secretary extends Employee {
-	void prepareDocuments() {
-	}
+
+	void prepareDocuments() {}
 }
 
 interface SuperEmployee {
-
 }

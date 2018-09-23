@@ -27,8 +27,7 @@ public class EmployeeEqualsHashCodeStandard {
 	private long id;
 	private String email; // unique
 
-	public EmployeeEqualsHashCodeStandard() {
-	}
+	public EmployeeEqualsHashCodeStandard() {}
 
 	public long getId() {
 		return id;

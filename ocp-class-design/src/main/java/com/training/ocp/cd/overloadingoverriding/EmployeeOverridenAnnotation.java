@@ -7,21 +7,20 @@ package com.training.ocp.cd.overloadingoverriding;
  */
 public class EmployeeOverridenAnnotation {
 
-	void increaseSalary() {
-	}
+	void increaseSalary() {}
 }
 
 class ManagerOverridenAnnotation extends EmployeeOverridenAnnotation {
+
 	/**
 	 * This annotation is type of meta-data about
 	 */
 	@Override
-	void increaseSalary() {
-	}
+	void increaseSalary() {}
 
 	/**
-	 * In the exam <code> @Override </code> annotation is not used frequently, so
-	 * please pay special attention on that topic.
+	 * In the exam <code> @Override </code> annotation is not used frequently, so please pay special
+	 * attention on that topic.
 	 * 
 	 * @param oldSalary
 	 */

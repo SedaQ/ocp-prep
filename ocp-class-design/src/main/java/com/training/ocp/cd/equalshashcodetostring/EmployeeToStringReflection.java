@@ -6,8 +6,8 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * ToString method should be used in all data classes (DTO, DAO etc.).
  * 
- * To use reflection with toString you have to include apache commons library
- * (or any other if you know).
+ * To use reflection with toString you have to include apache commons library (or any other if you
+ * know).
  * 
  * <pre>
 	<code>

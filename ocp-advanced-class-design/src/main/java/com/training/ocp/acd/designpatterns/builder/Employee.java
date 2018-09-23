@@ -1,9 +1,8 @@
 package com.training.ocp.acd.designpatterns.builder;
 
 /**
- * Builder pattern is used in case that we have a lot of parameters in class.
- * With builder pattern we prevent creating too many constructors with different
- * fields.
+ * Builder pattern is used in case that we have a lot of parameters in class. With builder pattern
+ * we prevent creating too many constructors with different fields.
  * 
  * @author Pavel Šeda
  *
@@ -27,6 +26,7 @@ public class Employee {
 	}
 
 	public static class EmployeeBuilder {
+
 		// required attributes
 		private long id;
 		private String email;
@@ -117,9 +117,8 @@ public class Employee {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Employee [id=").append(id).append(", email=").append(email).append(", nickname=")
-				.append(nickname).append(", age=").append(age).append(", hobbies=").append(hobbies).append(", note=")
-				.append(note).append("]");
+		builder.append("Employee [id=").append(id).append(", email=").append(email).append(", nickname=").append(nickname).append(", age=")
+				.append(age).append(", hobbies=").append(hobbies).append(", note=").append(note).append("]");
 		return builder.toString();
 	}
 

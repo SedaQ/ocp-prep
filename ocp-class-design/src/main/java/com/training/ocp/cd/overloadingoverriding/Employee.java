@@ -7,7 +7,6 @@ package com.training.ocp.cd.overloadingoverriding;
  */
 public class Employee {
 
-	public void doSomething() {
-	}
+	public void doSomething() {}
 
 }

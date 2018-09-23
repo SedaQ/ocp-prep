@@ -11,8 +11,7 @@ public class EmployeeToStringConcat {
 	private String name;
 	private int salary;
 
-	public EmployeeToStringConcat() {
-	}
+	public EmployeeToStringConcat() {}
 
 	public EmployeeToStringConcat(String name, int salary) {
 		super();

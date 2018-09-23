@@ -25,7 +25,7 @@ public class StaticNestedClass {
 
 		public static void main(String[] args) {
 			// could be instantiated without outer class
-			Nested nested = new Nested();
+			StaticNestedClass.Nested nested = new StaticNestedClass.Nested();
 			System.out.println(nested.salary);
 		}
 	}

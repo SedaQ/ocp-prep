@@ -1,8 +1,8 @@
 package com.training.ocp.acd.abstractclasses;
 
 /**
- * Abstract class does not have to contain any abstract method, but when it
- * contains any abstract method it have to be abstract class.
+ * Abstract class does not have to contain any abstract method, but when it contains any abstract
+ * method it have to be abstract class.
  * 
  * @author Pavel Seda
  *

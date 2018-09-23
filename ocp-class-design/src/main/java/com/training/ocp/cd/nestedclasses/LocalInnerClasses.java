@@ -48,27 +48,4 @@ public class LocalInnerClasses {
 	}
 }
 
-/**
- * Show replacement of anonymous inner classes with lambda functions
- * 
- * @author Pavel Seda
- *
- */
-class UseGUI {
 
-	void invokeGuiAction() {
-		JButton button = new JButton("blue");
-		button.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// handle the button click
-			}
-		});
-
-		// rewrite with lambda expression
-		button.addActionListener(actionListener -> {
-			// handle the button click
-		});
-	}
-
-}

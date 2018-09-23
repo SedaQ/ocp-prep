@@ -11,8 +11,7 @@ public class EmployeeToStringStringBuilder {
 	private String name;
 	private int salary;
 
-	public EmployeeToStringStringBuilder() {
-	}
+	public EmployeeToStringStringBuilder() {}
 
 	public EmployeeToStringStringBuilder(String name, int salary) {
 		super();
@@ -39,8 +38,7 @@ public class EmployeeToStringStringBuilder {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("EmployeeToStringStringBuilder [name=").append(name).append(", salary=").append(salary)
-				.append("]");
+		builder.append("EmployeeToStringStringBuilder [name=").append(name).append(", salary=").append(salary).append("]");
 		return builder.toString();
 	}
 

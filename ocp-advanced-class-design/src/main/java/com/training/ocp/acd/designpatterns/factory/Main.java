@@ -1,8 +1,7 @@
 package com.training.ocp.acd.designpatterns.factory;
 
 /**
- * This example is from page:
- * https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+ * This example is from page: https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
  * 
  * @author Seda
  *
