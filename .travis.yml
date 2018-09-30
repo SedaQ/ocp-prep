@@ -4,9 +4,6 @@ jdk:
   - oraclejdk8
 # see https://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure
 sudo: false
-env: 
-  matrix: 
-    - SPRING_BOOT_VERSION=2.0.5.RELEASE
 # cache the build tool's caches
 cache: 
   directories: 
@@ -17,4 +14,3 @@ install:
   - mvn install -DskipTests=true --batch-mode
 script: 
   - mvn clean install -B
-  - mvn verify -Dspring.version=$SPRING_BOOT_VERSION --batch-mode
