@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oca-recap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-advanced-class-design" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-class-design" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-concurrency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-exceptions-assertions" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-functional-programming" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-generics-collections" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-localization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-nio2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocp-strings-dates" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oca-recap" />
+        <module name="ocp-advanced-class-design" />
+        <module name="ocp-class-design" />
+        <module name="ocp-concurrency" />
+        <module name="ocp-exceptions-assertions" />
+        <module name="ocp-functional-programming" />
+        <module name="ocp-generics-collections" />
+        <module name="ocp-io" />
+        <module name="ocp-jdbc" />
+        <module name="ocp-localization" />
+        <module name="ocp-nio2" />
+        <module name="ocp-strings-dates" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oca-recap" target="1.8" />
+      <module name="ocp-advanced-class-design" target="1.8" />
+      <module name="ocp-class-design" target="1.8" />
+      <module name="ocp-concurrency" target="1.8" />
+      <module name="ocp-exceptions-assertions" target="1.8" />
+      <module name="ocp-functional-programming" target="1.8" />
+      <module name="ocp-generics-collections" target="1.8" />
+      <module name="ocp-io" target="1.8" />
+      <module name="ocp-jdbc" target="1.8" />
+      <module name="ocp-localization" target="1.8" />
+      <module name="ocp-nio2" target="1.8" />
+      <module name="ocp-prep" target="1.8" />
+      <module name="ocp-strings-dates" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

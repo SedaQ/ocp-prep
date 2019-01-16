@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oca-recap/oca-recap.iml" filepath="$PROJECT_DIR$/oca-recap/oca-recap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-advanced-class-design/ocp-advanced-class-design.iml" filepath="$PROJECT_DIR$/ocp-advanced-class-design/ocp-advanced-class-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-class-design/ocp-class-design.iml" filepath="$PROJECT_DIR$/ocp-class-design/ocp-class-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-concurrency/ocp-concurrency.iml" filepath="$PROJECT_DIR$/ocp-concurrency/ocp-concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-exceptions-assertions/ocp-exceptions-assertions.iml" filepath="$PROJECT_DIR$/ocp-exceptions-assertions/ocp-exceptions-assertions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-functional-programming/ocp-functional-programming.iml" filepath="$PROJECT_DIR$/ocp-functional-programming/ocp-functional-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-generics-collections/ocp-generics-collections.iml" filepath="$PROJECT_DIR$/ocp-generics-collections/ocp-generics-collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-io/ocp-io.iml" filepath="$PROJECT_DIR$/ocp-io/ocp-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-jdbc/ocp-jdbc.iml" filepath="$PROJECT_DIR$/ocp-jdbc/ocp-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-localization/ocp-localization.iml" filepath="$PROJECT_DIR$/ocp-localization/ocp-localization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-nio2/ocp-nio2.iml" filepath="$PROJECT_DIR$/ocp-nio2/ocp-nio2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-prep.iml" filepath="$PROJECT_DIR$/ocp-prep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp-strings-dates/ocp-strings-dates.iml" filepath="$PROJECT_DIR$/ocp-strings-dates/ocp-strings-dates.iml" />
+    </modules>
+  </component>
+</project>
