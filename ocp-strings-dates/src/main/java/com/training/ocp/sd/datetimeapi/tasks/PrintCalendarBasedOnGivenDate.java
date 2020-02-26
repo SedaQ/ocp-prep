@@ -25,6 +25,11 @@ public class PrintCalendarBasedOnGivenDate {
     private LocalDate endDate;
 
     public static void main(String[] args) {
+
+        LocalDateTime localDate = LocalDateTime.now(Clock.systemUTC());
+        System.out.println(localDate);
+
+
         PrintCalendarBasedOnGivenDate m = new PrintCalendarBasedOnGivenDate();
 
         System.out.println("Give me a date in ISO format YYYY-MM-DD");
@@ -33,7 +38,7 @@ public class PrintCalendarBasedOnGivenDate {
 
         LocalDate givenDate = LocalDate.parse(date, DateTimeFormatter.ISO_DATE);
 
-        Locale locale = new Locale("cs", "CZ");
+        Locale locale = new Locale("en", "EN");
 //        Locale locale = Locale.getDefault();
         m.printHeader(givenDate, locale);
 
@@ -43,10 +48,13 @@ public class PrintCalendarBasedOnGivenDate {
         m.endDate = givenDate.withDayOfMonth(givenDate.lengthOfMonth());
         List<LocalDate> streamIterator = m.daysBetween(m.startDate, m.endDate);
 
+
         for (int i = 0; i < streamIterator.size(); i++) {
             if (i % 7 == 0) System.out.println();
             System.out.format("%4s", streamIterator.get(i).getDayOfMonth());
         }
+
+
     }
 
     private void printHeader(LocalDate givenDate, Locale locale) {
@@ -79,24 +87,18 @@ public class PrintCalendarBasedOnGivenDate {
     }
 
     private void counting() {
-
         // When your program starts up
         ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
-
         // then, when you want to schedule a task
         executor.scheduleWithFixedDelay(() ->
-                        System.out.print(new String(System.lineSeparator() + " Actual time: "
-                                + LocalTime.now().truncatedTo(ChronoUnit.SECONDS).format(DateTimeFormatter.ISO_LOCAL_TIME))
-                                + ""),
+                        System.out.print("\r Actual time: " + LocalTime.now().truncatedTo(ChronoUnit.SECONDS).format(DateTimeFormatter.ISO_LOCAL_TIME)),
                 0,
                 1,
                 TimeUnit.SECONDS);
-
         // and finally, when your program wants to exit
         if (executor == null) {
             executor.shutdown();
         }
-
     }
 
     /**
