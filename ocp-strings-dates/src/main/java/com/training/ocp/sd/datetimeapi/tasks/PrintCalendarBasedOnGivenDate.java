@@ -26,10 +26,6 @@ public class PrintCalendarBasedOnGivenDate {
 
     public static void main(String[] args) {
 
-        LocalDateTime localDate = LocalDateTime.now(Clock.systemUTC());
-        System.out.println(localDate);
-
-
         PrintCalendarBasedOnGivenDate m = new PrintCalendarBasedOnGivenDate();
 
         System.out.println("Give me a date in ISO format YYYY-MM-DD");
@@ -42,38 +38,18 @@ public class PrintCalendarBasedOnGivenDate {
 //        Locale locale = Locale.getDefault();
         m.printHeader(givenDate, locale);
 
-        m.counting();
 
         m.startDate = givenDate.withDayOfMonth(1);
         m.endDate = givenDate.withDayOfMonth(givenDate.lengthOfMonth());
         List<LocalDate> streamIterator = m.daysBetween(m.startDate, m.endDate);
 
-
         for (int i = 0; i < streamIterator.size(); i++) {
             if (i % 7 == 0) System.out.println();
             System.out.format("%4s", streamIterator.get(i).getDayOfMonth());
         }
+        System.out.println();
 
-
-    }
-
-    private void printHeader(LocalDate givenDate, Locale locale) {
-        System.out.format("%4s", "  " +
-                givenDate.getDayOfWeek().getDisplayName(TextStyle.FULL, locale).toLowerCase() + " " +
-                givenDate.getDayOfMonth() + ". " +
-                givenDate.getMonth().getDisplayName(TextStyle.FULL, locale) + " " +
-
-                givenDate.getYear() + System.lineSeparator());
-
-        System.out.format("%4s%4s%4s%4s%4s%4s%4s",
-                DayOfWeek.MONDAY.getDisplayName(TextStyle.SHORT, locale),
-                DayOfWeek.TUESDAY.getDisplayName(TextStyle.SHORT, locale),
-                DayOfWeek.WEDNESDAY.getDisplayName(TextStyle.SHORT, locale),
-                DayOfWeek.THURSDAY.getDisplayName(TextStyle.SHORT, locale),
-                DayOfWeek.FRIDAY.getDisplayName(TextStyle.SHORT, locale),
-                DayOfWeek.SATURDAY.getDisplayName(TextStyle.SHORT, locale),
-                DayOfWeek.SUNDAY.getDisplayName(TextStyle.SHORT, locale)
-        );
+        m.counting();
     }
 
     private List<LocalDate> daysBetween(LocalDate startDate, LocalDate endDate) {
@@ -115,5 +91,25 @@ public class PrintCalendarBasedOnGivenDate {
                 .limit(numOfDaysBetween)
                 .mapToObj(i -> startDate.plusDays(i))
                 .collect(Collectors.toList());
+    }
+
+
+    private void printHeader(LocalDate givenDate, Locale locale) {
+        System.out.format("%4s", "  " +
+                givenDate.getDayOfWeek().getDisplayName(TextStyle.FULL, locale).toLowerCase() + " " +
+                givenDate.getDayOfMonth() + ". " +
+                givenDate.getMonth().getDisplayName(TextStyle.FULL, locale) + " " +
+
+                givenDate.getYear() + System.lineSeparator());
+
+        System.out.format("%4s%4s%4s%4s%4s%4s%4s",
+                DayOfWeek.MONDAY.getDisplayName(TextStyle.SHORT, locale),
+                DayOfWeek.TUESDAY.getDisplayName(TextStyle.SHORT, locale),
+                DayOfWeek.WEDNESDAY.getDisplayName(TextStyle.SHORT, locale),
+                DayOfWeek.THURSDAY.getDisplayName(TextStyle.SHORT, locale),
+                DayOfWeek.FRIDAY.getDisplayName(TextStyle.SHORT, locale),
+                DayOfWeek.SATURDAY.getDisplayName(TextStyle.SHORT, locale),
+                DayOfWeek.SUNDAY.getDisplayName(TextStyle.SHORT, locale)
+        );
     }
 }
